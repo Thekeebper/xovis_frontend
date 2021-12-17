@@ -15,7 +15,7 @@ function App() {
     async function fetchMyAPI() {
       await axios({
         method: "get",
-        url: `http://44.44.78.238:8085/get-data-2`,
+        url: `http://192.168.150.73:8085/get-data-2`,
       })
         .then(function (response) {
           setdata({
